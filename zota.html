@@ -1,0 +1,150 @@
+<html>
+<head><title>SOCH</title>
+</head>
+<style>
+
+body::before{
+content:"";
+position:absolute;
+width:100%;
+height:110%;
+background:url('picture/col.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+background-position:center;
+z-index:-1;
+opacity:0.87;
+}
+
+.regist{
+font-size:34px;
+height:90%;
+display:block;
+width:50%;
+margin:auto auto;
+padding:14px;
+}
+.regist::before{
+content:"";
+position:absolute;
+width:50%;
+height:87%;
+background-color:grey;
+border-radius:10px;
+opacity:0.7;
+z-index:-1;
+}
+h1{
+display:inline-block;
+font-size:42px;
+margin-top:10px;
+color:wheat;
+margin-bottom:14px;
+    text-decoration: underline;
+}
+#td{
+font-size:30px;
+color:white;
+}
+</style>
+<body>
+<center><h1>Registration Form....</h1></center>
+
+<div class="regist">
+<form>
+<table>
+<tr>
+<td id="td">
+Name:
+</td>
+<td >
+<input type="name" placeholder="Enter your name">
+</td>
+</tr>
+
+<tr>
+<td id="td">
+E-mail
+</td>
+<td>
+<input type="e-mail" placeholder="Enter your e-mail">
+</td>
+</tr>
+
+<tr>
+<td id="td">
+Contact-No:
+</td>
+<td>
+<select>
+<option>091</option>
+<option>092</option>
+<option>093</option>
+<option>094</option>
+<option>095</option>
+<option>096</option>
+</select>
+<input type="phone" placeholder="Enter your contact-number.">
+</td>
+</tr>
+
+<tr>
+<td id="td">
+Address:
+</td>
+<td>
+<input type="Address" placeholder="Enter your address.">
+</td>
+</tr>
+
+<tr>
+<td id="td">
+Date:
+</td>
+<td>
+<input type="date" placeholder="">
+</td>
+</tr>
+
+<tr>
+<td id="td">
+Gender:
+</td>
+<td id="td">
+<input type="radio" placeholder="">MALE
+<input type="radio" placeholder="">FEMALE
+<input type="radio" placeholder="">OTHER
+</td>
+</tr>
+
+<tr>
+<td id="td">
+Language known:
+</td>
+<td>
+<input type="number" placeholder="enter">
+</td>
+</tr>
+
+<tr>
+<td id="td">
+Native location:
+</td>
+<td>
+<input type="name" placeholder="Enter your location.">
+</td>
+</tr>
+
+<tr>
+<td id="td">
+Marital Status:
+</td>
+<td >
+<input type="name" placeholder="Enter your status.">
+</td>
+</tr>
+</table>
+</form>
+</div>
+</body>
+</html>
